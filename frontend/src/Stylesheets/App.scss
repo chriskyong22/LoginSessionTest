@@ -1,0 +1,33 @@
+@mixin flexContainer($flex-direction: row, $gap: 0.15rem) {
+    display: flex;
+    flex-direction: $flex-direction;
+    gap: $gap;
+}
+
+@mixin centerWithWidth($top-bottomMargins: 0) {
+    margin: $top-bottomMargins auto;
+}
+
+.LoginFormContainer {
+    @include flexContainer(column);
+    box-sizing: border-box;
+    max-width: fit-content;
+    margin-top: 1rem;
+    padding: 0.25rem 0.5rem;
+    border: black 1px solid;
+}
+
+.FormContainer {
+    @include flexContainer(column);
+    box-sizing: border-box;
+    @include centerWithWidth();
+    align-items: center;
+}
+
+.SignUpFormContainer {
+    @include flexContainer(column);
+    box-sizing: border-box;
+    padding: 0.25rem 0.5rem;
+    border: black 1px solid;
+    max-width: fit-content;
+}

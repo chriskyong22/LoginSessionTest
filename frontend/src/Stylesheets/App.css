@@ -1,0 +1,31 @@
+.LoginFormContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+  box-sizing: border-box;
+  max-width: fit-content;
+  margin-top: 1rem;
+  padding: 0.25rem 0.5rem;
+  border: black 1px solid;
+}
+
+.FormContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+  box-sizing: border-box;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.SignUpFormContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+  box-sizing: border-box;
+  padding: 0.25rem 0.5rem;
+  border: black 1px solid;
+  max-width: fit-content;
+}
+
+/*# sourceMappingURL=App.css.map */
